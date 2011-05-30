@@ -42,13 +42,13 @@ respectivamente. O desenvolvimento destes leyouts foi realizado utilizando a fer
 \begin{figure}[h]
   \begin{minipage} [b] {0.48 \linewidth}
 	\centering
-	\includegraphics[scale=0.2]{xorStaticCMOSlayout.png}
+	\includegraphics[scale=0.25]{xorStaticCMOSlayout.png}
 	\caption{Layout da porta XOR estática CMOS.}
 	\label{fig:xorStaticLayout}
   \end{minipage}
   \begin{minipage} [b] {0.48 \linewidth}
 	\centering
-	\includegraphics[scale=0.2]{xorTransGatelayout.png}
+	\includegraphics[scale=0.25]{xorTransGatelayout.png}
 	\caption{Layout da porta XOR com Transistor de Passagem.}
 	\label{fig:xorTransLayout}
   \end{minipage}
@@ -75,19 +75,21 @@ As figuras \ref{fig:xorStaticSchematic} e \ref{fig:xorTransSchematic} mostram os
 \section{Verificações}
 \label{sec:veri}
 
-A verificação DRC e LVS (\textit{Layout versus Schematic} sobre os layouts projetados foram realizadas.
-As figuras \ref{fig:xorStaticDRC}, \ref{fig:xorTransDRC}, \ref{fig:xorStaticLVS} e \ref{fig:xorTransLVS} mostram a saída do software virtuoso para a verificação DRC e LVS respectivamente.
+A verificação DRC e LVS (\textit{Layout versus Schematic} sobre os layouts projetados foram realizadas de acordo com as regras de layout da tecnologia AMS 0.35$\mu$.
+
+As figuras \ref{fig:xorStaticDRC}, \ref{fig:xorTransDRC}, \ref{fig:xorStaticLVS} e \ref{fig:xorTransLVS} mostram, respectivamente, a saída do software virtuoso para
+a verificação DRC e LVS de cada uma das versões da XOR de duas entradas desenvolvidas.
 
 \begin{figure}[h]
   \begin{minipage} [b] {0.48 \linewidth}
 	\centering
-	\includegraphics[scale=0.2]{xorStaticCMOSdrc.png}
+	\includegraphics[scale=0.25]{xorStaticCMOSdrc.png}
 	\caption{Verificação DRC para a porta XOR estática CMOS.}
 	\label{fig:xorStaticDRC}
   \end{minipage}
   \begin{minipage} [b] {0.48 \linewidth}
 	\centering
-	\includegraphics[scale=0.2]{xorTransGatedrc.png}
+	\includegraphics[scale=0.25]{xorTransGatedrc.png}
 	\caption{Verificação DRC para a porta XOR com Transistor de Passagem.}
 	\label{fig:xorTransDRC}
   \end{minipage}
@@ -96,21 +98,23 @@ As figuras \ref{fig:xorStaticDRC}, \ref{fig:xorTransDRC}, \ref{fig:xorStaticLVS}
 \begin{figure}[h]
   \begin{minipage} [b] {0.48 \linewidth}
 	\centering
-	\includegraphics[scale=0.2]{xorStaticCMOSlvs.png}
+	\includegraphics[scale=0.25]{xorStaticCMOSlvs.png}
 	\caption{Verificação LVS para a porta XOR estática CMOS.}
 	\label{fig:xorStaticLVS}
   \end{minipage}
   \begin{minipage} [b] {0.48 \linewidth}
 	\centering
-	\includegraphics[scale=0.2]{xorTransGateLvs.png}
+	\includegraphics[scale=0.25]{xorTransGateLvs.png}
 	\caption{Verificação LVS para a porta XOR com Transistor de Passagem.}
 	\label{fig:xorTransLVS}
   \end{minipage}
 \end{figure}
 
-A extração das capacitâncias parasitas também foi realizada.
-Os \textit{layouts} com as capacitâncias parasitas extraídas foram utilizados para realizar a caracterização elétrica de cada projeto,
-apresentada na próxima seção. As figuras \ref{fig:xorStaticExtracted} e \ref{fig:xorTransExtracted} apresentam os \textit{layouts} com as capacitâncias parasitas extraídas.
+A extração das capacitâncias parasitas também foi realizada afim de poder realizar a verificação LVS. Além disso,
+os \textit{layouts} com as capacitâncias parasitas extraídas foram utilizados para realizar a caracterização elétrica de cada uma das duas versões de porta XOR de duas entradas implementadas.
+Essa caracterizacao elétrica será apresentada na próxima seção.
+
+As figuras \ref{fig:xorStaticExtracted} e \ref{fig:xorTransExtracted} apresentam os \textit{layouts} com as capacitâncias parasitas extraídas.
 
 \begin{figure}[h]
   \begin{minipage} [b] {0.48 \linewidth}
@@ -131,12 +135,11 @@ apresentada na próxima seção. As figuras \ref{fig:xorStaticExtracted} e \ref{
 
 \section{Caracterização Elétrica}
 \label{sec:caracterizacao}
-O modelo de simulação utilizado para as duas implementações da porta XOR de duas entradas está representado na figura \ref{fig:
-xorTest}. A carga utilizada na saída foi de $0,1pF$.
+O modelo de simulação utilizado para as duas implementações da porta XOR de duas entradas está representado na figura \ref{fig:xorTest}. A carga utilizada na saída foi de $0,1pF$.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[scale=0.2]{xorStaticCMOStest.png}
+	\includegraphics[scale=0.15]{xorStaticCMOStest.png}
 	\caption{Modelo de simulação utilizado para realizar a caracterizacao elétrica das portas XOR projetadas.}
 	\label{fig:xorTest}
 \end{figure}
@@ -197,9 +200,9 @@ CMOS e 0.45pj para a XOR com transistor de passagem. A tabela \ref{tab:table3} a
   \caption{Comparação entre as duas implementações de XOR de duas entradas.}
   \begin{tabular}{c|c|c|c|c|c|c|c}
     \hline
-    Tempos de Resposta 		& Trise (ns)	& Tfall (ns)	& TPlh (ns)	& TPhl(ns)	& Tp(ns)	& Potência\\Média(mW)	& Energia \\ \hline
-    CMOS estática		& 0,847 	& 0,497		& 0.46		& 0,342		& 0,401		& 0,355			& 3.55pJ  \\ \hline
-    Transistor de Passagem  	& 0,401		& 0,419		& 0,46		& 0,261		& 0,365		& 0,045			& 0,45pJ  \\ \hline
+		& Trise (ns)	& Tfall (ns)	& TPlh (ns)	& TPhl(ns)	& Tp(ns)	& Potência(mW)	& Energia \\ \hline
+    CMOS	& 0,847 	& 0,497		& 0.46		& 0,342		& 0,401		& 0,355		& 3.55pJ  \\ \hline
+    Passagem	& 0,401		& 0,419		& 0,46		& 0,261		& 0,365		& 0,045		& 0,45pJ  \\ \hline
   \end{tabular}
   \label{tab:table3}
 \end{table}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.26)  30 MAY 2011 16:09
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.5.26)  30 MAY 2011 16:52
 entering extended mode
  %&-line parsing enabled.
 **relatorio.tex
@@ -412,31 +412,25 @@ Overfull \hbox (54.49995pt too wide) in paragraph at lines 69--70
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<xorStaticCMOSdrc.png, id=6, 758.835pt x 399.4925pt>
-File: xorStaticCMOSdrc.png Graphic file (type png)
-
-<use xorStaticCMOSdrc.png>
-<xorTransGatedrc.png, id=7, 756.8275pt x 400.49625pt>
-File: xorTransGatedrc.png Graphic file (type png)
-
-<use xorTransGatedrc.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<xorStaticCMOSlvs.png, id=8, 740.7675pt x 142.5325pt>
-File: xorStaticCMOSlvs.png Graphic file (type png)
-
-<use xorStaticCMOSlvs.png> <xorTransGateLvs.png, id=9, 744.7825pt x 140.525pt>
-File: xorTransGateLvs.png Graphic file (type png)
-
-<use xorTransGateLvs.png>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./xorStaticCMOSlayout.png>
  <./xorTransGatelayout.png>]
+<xorStaticCMOSdrc.png, id=20, 758.835pt x 399.4925pt>
+File: xorStaticCMOSdrc.png Graphic file (type png)
+
+<use xorStaticCMOSdrc.png>
+<xorTransGatedrc.png, id=21, 756.8275pt x 400.49625pt>
+File: xorTransGatedrc.png Graphic file (type png)
+
+<use xorTransGatedrc.png>
+<xorStaticCMOSlvs.png, id=22, 740.7675pt x 142.5325pt>
+File: xorStaticCMOSlvs.png Graphic file (type png)
+
+<use xorStaticCMOSlvs.png>
+<xorTransGateLvs.png, id=23, 744.7825pt x 140.525pt>
+File: xorTransGateLvs.png Graphic file (type png)
+ <use xorTransGateLvs.png>
 <xorStaticCMOSextracted.png, id=24, 873.2625pt x 985.6825pt>
 File: xorStaticCMOSextracted.png Graphic file (type png)
 
@@ -451,38 +445,35 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <xorStaticCMOStest.png, id=26, 1219.55624pt x 896.34875pt>
 File: xorStaticCMOStest.png Graphic file (type png)
 
-<use xorStaticCMOStest.png>
+<use xorStaticCMOStest.png> [2 <./xorStaticCMOSSchematic.png> <./xorTransGateSc
+hematic.png> <./xorStaticCMOSdrc.png> <./xorTransGatedrc.png> <./xorStaticCMOSl
+vs.png> <./xorTransGateLvs.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[2 <./xorStaticCMOSSchematic.png> <./xorTransGateSchematic.png> <./xorStaticCMO
-Sdrc.png> <./xorTransGatedrc.png>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3 <./xorStaticCMOSlvs.png> <./xorTransGateLvs.png> <./xorStaticCMOSextracted.p
-ng> <./xorTransGateExtracted.png>] [4 <./xorStaticCMOStest.png>]
-(./relatorio.aux) ) 
+[3 <./xorStaticCMOSextracted.png> <./xorTransGateExtracted.png> <./xorStaticCMO
+Stest.png>] [4] (./relatorio.aux) ) 
 Here is how much of TeX's memory you used:
  1915 strings out of 495061
  24830 string characters out of 1182621
- 91375 words of memory out of 3000000
+ 89375 words of memory out of 3000000
  5092 multiletter control sequences out of 15000+50000
  5258 words of font info for 19 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  25i,8n,24p,340b,257s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmb
-x10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></u
-sr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texli
-ve/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-texlive/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
-y10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on relatorio.pdf (4 pages, 395643 bytes).
+</usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbxti10.
+pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/s
+hare/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-t
+exlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fonts
+/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-texlive/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmti10.pfb>
+Output written on relatorio.pdf (4 pages, 395803 bytes).
 PDF statistics:
  74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
